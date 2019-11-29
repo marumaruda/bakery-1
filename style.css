@@ -1,0 +1,122 @@
+body {
+    margin: 0%;
+}
+#header {
+    background-color: #E67D1E;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    background-position-y: 78px;
+    background-position-x: -40px;
+}
+#header-title {
+    float: left;
+    margin-top: 1%;
+    font-size: 250%;
+    margin-left: 2%;
+}
+#navi {
+    list-style: none;
+    float: left;
+    width: 600px;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.navi-cont {
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 150%;
+}
+#access {
+    padding-right: 2%;
+    text-align: right;
+}
+#zip-code {
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+#address {
+    margin-top: 0%;
+    text-align: lefts;
+}
+#main {
+    background-color: #FFE38B;
+}
+#slick-img {
+    width: 69%;
+    height: 69%;
+    margin-left: 16%;
+    padding-top: 60px;
+}
+#about {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 250%;
+}
+#about-1 {
+    margin-left: 10%;
+    margin-top: 100px;
+    float: left;
+}
+#about-1 h2 {
+    font-size: 200%;
+    color: #EC6538;
+}
+#about-1 p {
+    margin: 0%;
+    font-size: 130%;
+}
+#about-1-img {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#about-2-img {
+    margin-left: 10%;
+    margin-top: 10%;
+    float: left;
+}
+#about-2 {
+    margin-right: 10%;
+    text-align: right;
+    margin-top: 13%;
+}
+#about-2 h2 {
+    font-size: 200%;
+    color: #EC6538;
+}
+#about-2 p {
+    margin: 0%;
+    font-size: 130%;
+}
+#btn-cont {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 180%;
+    padding-bottom: 100px;
+}
+.btn {
+    font-size: 120%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-radius: 50px;
+    transition-duration: .5s;
+    padding: 2% 4%;
+    background-color: #E67D1E;
+}
+.btn:hover {
+    background-color: rgb(165, 89, 23);
+}
+#footer {
+    background-color: #E67D1E;
+    height: 150px;
+    padding-top: 3%;
+}
+#footer-title {
+    margin: 0%;
+    text-align: right;
+    font-size: 250%;
+    margin-right: 2%;
+}
