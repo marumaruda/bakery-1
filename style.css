@@ -1,5 +1,15 @@
+
+@font-face {
+    font-family: title;
+    src: url(font/Chalkduster.ttf);
+}
+@font-face {
+    font-family: main;
+    src: url(font/main.otf);
+}
 body {
     margin: 0%;
+    font-family: main;
 }
 #header {
     background-color: #E67D1E;
@@ -7,7 +17,7 @@ body {
     padding-bottom: 30px;
     background-image: url(img/header.png);
     background-repeat: no-repeat;
-    background-position-y: 78px;
+    background-position-y: 60px;
     background-position-x: -40px;
 }
 #header-title {
@@ -15,11 +25,12 @@ body {
     margin-top: 1%;
     font-size: 250%;
     margin-left: 2%;
+    font-family: title;
 }
 #navi {
     list-style: none;
     float: left;
-    width: 600px;
+    width: 400px;
     margin-top: 2%;
     margin-left: 4%;
 }
@@ -30,7 +41,7 @@ body {
     font-size: 150%;
 }
 #access {
-    padding-right: 2%;
+    padding-right: 3%;
     text-align: right;
 }
 #zip-code {
@@ -115,8 +126,9 @@ body {
     padding-top: 3%;
 }
 #footer-title {
-    margin: 0%;
+    margin-top: 0%;
     text-align: right;
     font-size: 250%;
     margin-right: 2%;
+    font-family: title;
 }
