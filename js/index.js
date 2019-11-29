@@ -1,0 +1,9 @@
+$(function(){
+    $('.slick').slick({
+        arrows:false,
+        autoplay:true,
+        autoplaySpeed:3000,
+        pauseOnFocus:false,
+        pauseOnHover:false,
+    });
+     });
