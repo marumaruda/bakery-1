@@ -137,3 +137,40 @@ body {
     margin-right: 2%;
     font-family: title;
 }
+#navi-under {
+    list-style: none;
+    float: left;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width:1440px) {
+    #navi {
+        margin-left: 3%;
+        width: 30%;
+    }
+    #header {
+        background-position-x: -20px;
+        background-position-y: 60px;
+    }
+    #cont-1 {
+        margin-left: 0%;
+    }
+    #about-1-img {
+        margin-left: 5%;
+    }
+    #about-2 {
+        margin-right: 3%;
+    }
+    #about-2-img {
+        margin-left: 8%;
+    }
+    #navi-under {
+        list-style: none;
+        float: left;
+        width: 50%;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+}
